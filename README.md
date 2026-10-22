@@ -69,7 +69,7 @@
 
 
 
-![Настройка Git](01_screenshots.jpg)
+![Настройка Git](screenshots/01_screenshots.jpg)
 
 
 
@@ -89,7 +89,7 @@
 
 
 
-![Клонирование и проверка репозитория](02_screenshots.jpg)
+![Клонирование и проверка репозитория](screenshots/02_screenshots.jpg)
 
 
 
@@ -105,7 +105,7 @@
 
 
 
-![Получение изменений с GitHub](03_screenshots.jpg)
+![Получение изменений с GitHub](screenshots/03_screenshots.jpg)
 
 
 
@@ -133,7 +133,7 @@ git log --all --graph --oneline --decorate
 
 
 
-![История веток](05_screenshots.jpg)
+![История веток](screenshots/05_screenshots.jpg)
 
 
 
@@ -149,7 +149,7 @@ git log --all --graph --oneline --decorate
 
 
 
-![Различия между ветками](06_screenshots.jpg)
+![Различия между ветками](screenshots/06_screenshots.jpg)
 
 
 
@@ -173,7 +173,7 @@ git merge branch1
 
 
 
-![Возникновение конфликта](07_screenshots.jpg)
+![Возникновение конфликта](screenshots/07_screenshots.jpg)
 
 
 
@@ -199,7 +199,7 @@ git commit -m "Слияние branch1 в master, конфликт разреше
 
 
 
-![Результат слияния](10_screenshots.jpg)
+![Результат слияния](screenshots/10_screenshots.jpg)
 
 
 
@@ -223,7 +223,7 @@ git branch -d branch1
 
 
 
-![Удаление локальной ветки](11_screenshots.jpg)
+![Удаление локальной ветки](screenshots/11_screenshots.jpg)
 
 
 
@@ -239,7 +239,7 @@ git branch -d branch1
 
 
 
-![История созданных коммитов](12_screenshots.jpg)
+![История созданных коммитов](screenshots/12_screenshots.jpg)
 
 
 
@@ -263,7 +263,7 @@ git revert --no-edit HEAD
 
 
 
-![Отмена последнего изменения](13_screenshots.jpg)
+![Отмена последнего изменения](screenshots/13_screenshots.jpg)
 
 
 
