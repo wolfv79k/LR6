@@ -194,4 +194,66 @@
 
 Отчёт оформляется в Markdown. Скриншоты находятся в отдельной папке screenshots и подключены относительными ссылками. Разделы добавляются последовательно; очередная часть сохраняется отдельным коммитом с описанием добавленного материала.
 
+## 3. Лог команд
+
+Ниже приведены команды без результатов их выполнения.
+
+```bash
+git --version
+git config --global user.name "4515 Р.Э. Никонёнок"
+git config --global user.email "romanikonenok@gmail.com"
+git config --get user.name
+git config --get user.email
+git clone https://github.com/wolfv79k/LR6.git
+cd LR6
+git remote -v
+git branch -a
+git switch master
+git pull --ff-only origin master
+cat github-note.txt
+git log master --oneline
+git log origin/branch1 --oneline
+git log --all --graph --oneline --decorate
+git show HEAD
+git diff master origin/branch1
+git switch -c branch1 --track origin/branch1
+git switch master
+git status
+git merge branch1
+git status
+notepad mergefile.txt
+git add mergefile.txt
+git commit -m "Объединены master и branch1, конфликт разрешён"
+git status
+git log --graph --oneline --decorate -6
+git branch -d branch1
+git branch
+echo "First line" > practice.txt
+git add practice.txt
+git commit -m "Создан учебный файл"
+echo "Second line" >> practice.txt
+git add practice.txt
+git commit -m "Добавлена вторая строка"
+echo "Temporary line" >> practice.txt
+git add practice.txt
+git commit -m "Добавлена временная строка"
+cat practice.txt
+git log --oneline -5
+git revert --no-edit HEAD
+cat practice.txt
+git log --oneline -6
+git status
+git switch -c otchet
+git branch
+mkdir -p screenshots
+notepad README.md
+git add README.md screenshots/
+git commit -m "Отчёт: добавлены цель, настройка Git и клонирование"
+git add README.md screenshots/
+git commit -m "Отчёт: добавлены история веток и разрешение конфликта"
+git add README.md screenshots/
+git commit -m "Отчёт: добавлены учебные коммиты и откат"
+```
+
+Лог отражает команды, выполненные к моменту добавления этого раздела. Команда получения итоговой истории приведена в следующем разделе отчёта.
 
